@@ -35,7 +35,7 @@ router.put('/:id', async (req, res) => {
     }
 });
 
-t
+
 router.delete('/:id', async (req, res) => {
     try {
         const student = await Student.findByIdAndDelete(req.params.id);
